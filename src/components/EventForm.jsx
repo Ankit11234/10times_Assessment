@@ -27,7 +27,7 @@ const EventForm = ({ onAddEvent }) => {
       </h3>
       <div className="flex-col flex  my-2 items-center gap-1 justify-center m-auto ">
         <span className="">
-          Event Name:
+          Event Name
         </span>
           <input
             className=" mx-2 w-[50%] border-2 p-1 rounded-md focus:outline-none border-grey"
@@ -38,7 +38,7 @@ const EventForm = ({ onAddEvent }) => {
       </div>
       <div className="flex-col flex  my-2 items-center gap-1 justify-center m-auto ">
       <span className="">
-          Event Date:
+          Event Date
         </span>
           <input
             className=" mx-2 w-[50%] border-2 p-1 rounded-md focus:outline-none border-grey"
