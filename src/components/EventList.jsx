@@ -3,7 +3,7 @@ import React from 'react';
 const EventList = ({ events }) => {
   return (
     <div className="flex border-2 border-white p-2 mx-20  flex-col justify-center items-center m-auto my-2">
-      <h2 className="bg-cyan-500 w-full text-center text-white p-2 rounded-md font-bold">Event List</h2>
+      <h2 className="bg-cyan-600 w-full text-center text-white p-2 rounded-md font-bold">Event List</h2>
 
       {events.length===0 && <h2 className='my-2'>No events</h2>}
      {events && 
