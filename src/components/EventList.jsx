@@ -10,7 +10,7 @@ const EventList = ({ events }) => {
       <ul>
         {events.map((event, index) => (
           <li className='p-2 m-2 bg-gray-700 rounded-md w-full' key={index}>
-        {index+1})  {event.name} - {event.date}
+        {index+1})  {event.name} -- {event.date}
           </li>
         ))}
       </ul>

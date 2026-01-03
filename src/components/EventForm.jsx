@@ -22,7 +22,7 @@ const EventForm = ({ onAddEvent }) => {
   return (
     <div>
         <ToastContainer/>
-      <h3 className="text-2xl font-sans font-semibold text-center p-2 text-red-500">
+      <h3 className="text-2xl font-sans font-semibold text-center p-2 text-blue-500">
         Create Event
       </h3>
       <div className="flex-col flex  my-2 items-center gap-1 justify-center m-auto ">
